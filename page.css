@@ -1,7 +1,6 @@
 
 html,
 body {
-    background-color: #FFE1E9;
     font-family: sans-serif;
 }
 
@@ -9,90 +8,69 @@ h1 {
     font-size: 60px;
 }
 
-@media only screen and (min-width: 375px) {
-
-    .body__image {
-        display: flex;
-        height: 150px;
-
-    }
+.page__image {
+    display: flex;
+    height: 150px;
+ }
     
-    .page_container {
-        display: block;
-        background-color: white;
-    }
-    
-    
-    .body_maincard {
-        background-color: white;
-    }
-    
-    .body__top_layout {
-         background-color: white;
-         padding: 50px;
-    
-    }
-    
-    p {
-        font-size: 33px; 
-    }
-
-
-    h1 {
-    display: block;
-    }
-
-    textarea {
-        border-radius: 15px;
-        width: 99%;
-        font-size: 35px;
-        text-align: center;
-        line-height: 80px;
-        height:100px;
-    }
-
-    .body__signedin {
-        padding: 30px;
-        font-size: 35px;
-        display: flex;
-    }
-    
-    input[type=checkbox] {
-        transform: scale(3.8);
-        margin-right: 30px;
-    
-    }
-
-    .body__new-number {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .sign__in {
-        border: 0;
-        line-height: 2.5;
-        padding: 0px 70px 0px 70px;
-        font-size: 3rem;
-        text-align: center;
-        color: #fff;
-        text-shadow: 1px 1px 1px #000;
-        border-radius: 40px;
-        background-color: #4632C2;
-        margin-top: 50px;
-    }
-
-    .body__have_new_number {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    span {
-        color:#4632C2;
-        padding: 20px;
-    }
-
-    .body__captcha {
-        margin: 390px 0px 0px 550px
-    }
-
+.page__top_layout {
+    padding: 50px;
 }
+    
+p {
+    font-size: 33px; 
+}
+
+textarea {
+    border-radius: 15px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    line-height: 80px;
+    height:100px;
+}
+
+.page__signedin {
+    padding: 30px;
+    font-size: 35px;
+    display: flex;
+}
+    
+.page__checkbox {
+    width: 60px;
+    height: 50px;
+    margin: 0px 20px 20px 0px
+}
+
+.page__new-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign__in {
+    line-height: 2.5;
+    padding: 0px 70px 0px 70px;
+    font-size: 3em;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 40px;
+    background-color: #4632C2;
+    margin-top: 50px;
+}
+
+.page__have_new_number {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.page__find_account {
+    color:#4632C2;
+    padding: 20px;
+}
+
+.page__captcha {
+    margin: 390px 0px 0px 550px
+}
+
