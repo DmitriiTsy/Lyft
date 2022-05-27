@@ -5,40 +5,29 @@
 <link rel="stylesheet" href="page.css">
 </head>
 <body>
-    <div class="page_container">
-        <div class="page_maincard">
-            <div class="page__top_layout">
-                <div class="page__image">
+    <div class="container">
+        <div class="maincard">
+            <div class="top">
+                <div class="top__image">
                     <img src="lyft_logo.png">
                 </div>
-                <h1>Welcome back to Lyft!</h1>
-                <p>We'll send a text to verify your phone.</p>
-                <textarea rows="3" cols="1" placeholder="+1 Phone number"></textarea>
-                <div class="page__signedin">
-                    <form action="/action_page.php">
-                        <input type="checkbox" class='page__checkbox' id="signedin" name="signedin" value="sign">
-                        <label for="signedin">Keep me signed in</label><br>
+                <h1 class="top__text-big"> Welcome back to Lyft!</h1>
+                <div class="top__text">We'll send a text to verify your phone.</div>
+                <textarea id="top__textarea" rows="3" cols="1" placeholder="+1 Phone number"></textarea>
+                <div class="top__signin">
+                        <input type="checkbox" class='top__checkbox' id="signedin" name="signedin" value="sign">
+                        <label for="checkbox" class="top__label">Keep me signed in</label><br>
                 </div>
-                <div class="page__new-number">
-                    <button class="sign__in" type="button"> Next  </button>
+                <div class="top__new-number">
+                    <button class="top__button" type="button"> Next  </button>
                 </div>
-                <div class="page__have_new_number">
-                    <p>Have a new number?</p>
-                    <div class="page__find_account">Find your account</div>
+                <div class="top__have_new_number">
+                    <div class="top__text-find-account">Have a new number? </div>
+                    <div class="top__find-account"> Find your account</div>
                 </div>
-                <div class="page__captcha">
+                <div class="top__captcha">
                     <img src="reCAPTCHA.jpeg">
                 </div>
-
-
-            </div>
-            <div class="page__middle_layout">
-                
-
-
-    
-            </div>
-            <div class="page__footer">
             </div>
         </div>
     </div>

@@ -4,73 +4,94 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
-    font-size: 60px;
+.top__text-big {
+    font-size: 60px;  
 }
 
-.page__image {
+.top {
+    margin: 60px
+}
+
+.top__image {
     display: flex;
     height: 150px;
  }
     
-.page__top_layout {
-    padding: 50px;
-}
-    
-p {
-    font-size: 33px; 
+.top__text {                     
+    font-size: 24px; 
+    padding-bottom: 40px;
 }
 
-textarea {
+#top__textarea {               
     border-radius: 15px;
     width: 100%;
     font-size: 35px;
+    border-color: #000;
     text-align: center;
     line-height: 80px;
-    height:100px;
+    height:140px;
+    margin-bottom: 40px;
 }
 
-.page__signedin {
+.top__signedin {
     padding: 30px;
     font-size: 35px;
     display: flex;
 }
     
-.page__checkbox {
-    width: 60px;
-    height: 50px;
-    margin: 0px 20px 20px 0px
+.top__checkbox {
+    width: 70px;
+    height: 60px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 40px;
+    top: -10px;
 }
 
-.page__new-number {
+.top__new-number {        
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sign__in {
+.top__button {
     line-height: 2.5;
     padding: 0px 70px 0px 70px;
     font-size: 3em;
     text-align: center;
     color: #FFFFFF;
     text-shadow: 1px 1px 1px #000;
-    border-radius: 40px;
-    background-color: #4632C2;
-    margin-top: 50px;
+    border-radius: 150px;
+    background-color: #523be4;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
-.page__have_new_number {
+.top__have_new_number {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.page__find_account {
+.top__find-account { 
     color:#4632C2;
     padding: 20px;
+    font-size: 20px;
+    text-decoration: solid;
 }
 
-.page__captcha {
-    margin: 390px 0px 0px 550px
+.top__captcha {
+    margin: 250px 0px 0px 550px
 }
 
+.top__label {
+    font-size: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.top__text-find-account {
+    font-size: 23px;
+}
