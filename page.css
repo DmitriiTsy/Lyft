@@ -22,7 +22,7 @@ body {
     padding-bottom: 40px;
 }
 
-#top__textarea {               
+.top__textarea {               
     border-radius: 15px;
     width: 100%;
     font-size: 35px;
